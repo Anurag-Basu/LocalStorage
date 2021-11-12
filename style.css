@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+fieldset{
+   width: 70%;
+   border: 3px solid brown;
+}
+
+input{
+    width: 30%;
+}
+
+input,button{
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin: 15px 5px;
+}
+
+#lsOutput{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    padding-left: 10px;
+}
